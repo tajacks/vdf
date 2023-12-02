@@ -7,6 +7,8 @@ defmodule VDF.ReaderUtil do
           | {:key, String.t()}
           | {:key_value, {String.t(), String.t()}}
 
+  @moduledoc false
+
   @spec classify(String.t()) :: classification
   def classify(line) when is_bitstring(line) do
     case classify_value(line) do
