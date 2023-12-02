@@ -37,7 +37,7 @@ defmodule Vdf.MixProject do
     [
       {:ex_doc, "~> 0.30.6", only: :dev, runtime: false},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
-      {:excoveralls, "~> 0.17.1", only: :test},
+      {:excoveralls, "~> 0.18.0", only: :test},
       {:dialyxir, "~> 1.4.1", only: [:dev, :test], runtime: false}
     ]
   end
